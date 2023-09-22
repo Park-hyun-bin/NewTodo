@@ -18,8 +18,10 @@
 		6B1CD9EF2AB5850000FC4562 /* NewTodoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1CD9EE2AB5850000FC4562 /* NewTodoUITests.swift */; };
 		6B1CD9F12AB5850000FC4562 /* NewTodoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1CD9F02AB5850000FC4562 /* NewTodoUITestsLaunchTests.swift */; };
 		6B1CD9FE2AB59D2C00FC4562 /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1CD9FD2AB59D2C00FC4562 /* FirstView.swift */; };
-		6B1CDA002AB59E2D00FC4562 /* detailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1CD9FF2AB59E2D00FC4562 /* detailView.swift */; };
 		6B1CDA022AB59E5B00FC4562 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1CDA012AB59E5B00FC4562 /* ListView.swift */; };
+		6BA5A4072AB9A6A000FF1263 /* addView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA5A4062AB9A6A000FF1263 /* addView.swift */; };
+		6BA5A4092ABAE15100FF1263 /* editView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA5A4082ABAE15100FF1263 /* editView.swift */; };
+		6BA5A40B2ABB0F2B00FF1263 /* EditModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA5A40A2ABB0F2B00FF1263 /* EditModal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,8 +57,10 @@
 		6B1CD9EE2AB5850000FC4562 /* NewTodoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTodoUITests.swift; sourceTree = "<group>"; };
 		6B1CD9F02AB5850000FC4562 /* NewTodoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTodoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		6B1CD9FD2AB59D2C00FC4562 /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
-		6B1CD9FF2AB59E2D00FC4562 /* detailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailView.swift; sourceTree = "<group>"; };
 		6B1CDA012AB59E5B00FC4562 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		6BA5A4062AB9A6A000FF1263 /* addView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addView.swift; sourceTree = "<group>"; };
+		6BA5A4082ABAE15100FF1263 /* editView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editView.swift; sourceTree = "<group>"; };
+		6BA5A40A2ABB0F2B00FF1263 /* EditModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditModal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,13 +111,15 @@
 		6B1CD9C92AB584FF00FC4562 /* NewTodo */ = {
 			isa = PBXGroup;
 			children = (
+				6BA5A40C2ABC497700FF1263 /* New Group */,
 				6B1CD9CA2AB584FF00FC4562 /* AppDelegate.swift */,
 				6B1CD9CC2AB584FF00FC4562 /* SceneDelegate.swift */,
 				6B1CD9CE2AB584FF00FC4562 /* ViewController.swift */,
 				6B1CD9D02AB584FF00FC4562 /* Main.storyboard */,
-				6B1CD9FF2AB59E2D00FC4562 /* detailView.swift */,
-				6B1CDA012AB59E5B00FC4562 /* ListView.swift */,
 				6B1CD9FD2AB59D2C00FC4562 /* FirstView.swift */,
+				6BA5A4062AB9A6A000FF1263 /* addView.swift */,
+				6B1CDA012AB59E5B00FC4562 /* ListView.swift */,
+				6BA5A4082ABAE15100FF1263 /* editView.swift */,
 				6B1CD9D62AB584FF00FC4562 /* Assets.xcassets */,
 				6B1CD9D82AB584FF00FC4562 /* LaunchScreen.storyboard */,
 				6B1CD9DB2AB584FF00FC4562 /* Info.plist */,
@@ -137,6 +143,14 @@
 				6B1CD9F02AB5850000FC4562 /* NewTodoUITestsLaunchTests.swift */,
 			);
 			path = NewTodoUITests;
+			sourceTree = "<group>";
+		};
+		6BA5A40C2ABC497700FF1263 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				6BA5A40A2ABB0F2B00FF1263 /* EditModal.swift */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,9 +286,11 @@
 			files = (
 				6B1CD9D52AB584FF00FC4562 /* NewTodo.xcdatamodeld in Sources */,
 				6B1CD9FE2AB59D2C00FC4562 /* FirstView.swift in Sources */,
+				6BA5A4092ABAE15100FF1263 /* editView.swift in Sources */,
+				6BA5A40B2ABB0F2B00FF1263 /* EditModal.swift in Sources */,
 				6B1CD9CF2AB584FF00FC4562 /* ViewController.swift in Sources */,
 				6B1CDA022AB59E5B00FC4562 /* ListView.swift in Sources */,
-				6B1CDA002AB59E2D00FC4562 /* detailView.swift in Sources */,
+				6BA5A4072AB9A6A000FF1263 /* addView.swift in Sources */,
 				6B1CD9CB2AB584FF00FC4562 /* AppDelegate.swift in Sources */,
 				6B1CD9CD2AB584FF00FC4562 /* SceneDelegate.swift in Sources */,
 			);
